@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>EC</title>
+  </head>
+  <body>
+      <div class="design">
+          <img src="/pic/top-design.png" alt="top-design">
+      </div>
+    <div class="main-form">
+      <!-- https://dashboard.sheetmonkey.io/edit/5mAdwSNhSBuoVhMdegKM5x -->
+      <form
+        action="https://api.sheetmonkey.io/form/5mAdwSNhSBuoVhMdegKM5x"
+        method="post"
+      >
+        <input type="text" name="Name" placeholder="Name" required />
+        <input type="email" name="Email" placeholder="Email" required />
+        <input type="number" name="Phone" placeholder="Phone" required />
+        <input
+          type="hidden"
+          name="Created"
+          value="x-sheetmonkey-current-date"
+        />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <div class="design-bottom">
+        <img src="/pic/bottom-design.png" alt="">
+    </div>
+  </body>
+</html>
